@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>progect3</title>
+    <link rel="stylesheet" href="style css/css.css">
+</head>
+<body>
+    <section class="home">
+      <div class="home face">
+        <button class="menu" >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav">
+            <h1><span>FINANCE</span> BUSINESS</h1>
+            <div class="list">
+                <ul>
+                    <li><a href="index.html" class="ahome">home</a></li>
+                    <li><a href="index.html">about us</a></li>
+                    <li><a href="index.html">our services</a></li>
+                    <li><a href="index.html">contact us</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="head">
+            <h5> WE ARE READY  TO HELP YOU </h5>
+            <H2>FINANCIAL ANALYSIS <span>& CONSULTING</span></H2>
+            <button class="btn1">contact</button>
+        </div>
+      </div>
+    </section>
+    <section class="fouter">
+        <div class="continer">
+            <div class="textfouter">
+                <h3>request acall back right now ?</h3>
+                <p>mouris ut dopibus volit cras intardum mal ac uma tampar mollis</p>
+            </div>
+          
+           <button class="btn2" >contact</button>
+        </div>
+
+    </section>
+</body>
+<script>
+    let button=document.querySelector('.menu');
+
+
+button.onclick=()=>{
+    button.classList.toggle('active');
+    document.querySelector('.list').classList.toggle('nav-list')
+    console.log(1)
+}
+</script>
+</html>
